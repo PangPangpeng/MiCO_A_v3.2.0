@@ -1,0 +1,26 @@
+
+                        MICO MEMORY MAP                            
+|=================================================================|
+| MODULE                                   | ROM       | RAM      |
+|=================================================================|
+| APP_bootloader                           | 0         | 32220    |
+| Board_MiCOKit_3239                       | 0         | 1535     |
+| crt0_GCC                                 | 56        | 156      |
+| libc_nano                                | 0         | 5407     |
+| Lib_dc_motor_MK3239                      | 0         | 30       |
+| Lib_gpio_button_MK3239                   | 0         | 428      |
+| Lib_RGB_P9813_MK3239                     | 0         | 144      |
+| Lib_Utilities                            | 0         | 412      |
+| mem_newlib                               | 0         | 48       |
+| NoRTOS                                   | 0         | 358      |
+| platform_vector_table                    | 0         | 0        |
+| stdio_newlib                             | 0         | 110      |
+| STM32F4xx                                | 0         | 2043     |
+| STM32F4xx_Peripheral_Drivers             | 0         | 5668     |
+| STM32F4xx_Peripheral_Libraries           | 0         | 2892     |
+| wifi_nvram                               | 0         | 0        |
+| *fill*                                   | 404       | 4060     |
+|=================================================================|
+| TOTAL (bytes)                            | 460       | 55511    |
+|=================================================================|
+Build complete

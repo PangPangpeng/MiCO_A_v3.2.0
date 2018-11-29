@@ -1,0 +1,43 @@
+
+                        MICO MEMORY MAP                            
+|=================================================================|
+| MODULE                                   | ROM       | RAM      |
+|=================================================================|
+| App_Helloworld                           | 3316      | 2081     |
+| Board_MiCOKit_3239                       | 1529      | 172      |
+| crt0_GCC                                 | 272       | 0        |
+| FreeRTOS                                 | 5832      | 424      |
+| hardfault_handler                        | 991       | 0        |
+| libc                                     | 38063     | 2268     |
+| libgcc                                   | 3360      | 0        |
+| Lib_dc_motor_MK3239                      | 30        | 0        |
+| Lib_gpio_button_MK3239                   | 228       | 200      |
+| Lib_JSON_C                               | 6762      | 12       |
+| Lib_MiCOKit_EXT_MK3239                   | 453       | 7        |
+| Lib_MiCO_Kernel                          | 12        | 12       |
+| Lib_MiCO_System                          | 26723     | 415      |
+| Lib_MiCO_System_QC                       | 1331      | 80       |
+| Lib_RGB_P9813_MK3239                     | 144       | 0        |
+| Lib_Utilities                            | 8663      | 0        |
+| Lib_VGM128064_MK3239                     | 2268      | 0        |
+| Lib_wolfSSL.Cortex-M4.GCC.release        | 20446     | 8        |
+| LwIP                                     | 120       | 0        |
+| mem_newlib                               | 96        | 16       |
+| MiCO.3239.GCC                            | 102906    | 27916    |
+| MiCO_FreeRTOS_Interface                  | 3124      | 36       |
+| mico_system_power_daemon                 | 665       | 25       |
+| platform_vector_table                    | 0         | 0        |
+| Sensor_APDS9930_MK3239                   | 1125      | 6        |
+| Sensor_BME280_MK3239                     | 2548      | 70       |
+| Sensor_DHT11_MK3239                      | 152       | 0        |
+| Sensor_Infrared_Reflective_MK3239        | 20        | 0        |
+| Sensor_Light_adc_MK3239                  | 20        | 0        |
+| stdio_newlib                             | 108       | 0        |
+| STM32F4xx                                | 5178      | 2215     |
+| STM32F4xx_Peripheral_Drivers             | 10820     | 288      |
+| STM32F4xx_Peripheral_Libraries           | 6506      | 16       |
+| wifi_nvram                               | 670       | 0        |
+| *fill*                                   | 253       | 928      |
+|=================================================================|
+| TOTAL (bytes)                            | 254734    | 37195    |
+|=================================================================|
